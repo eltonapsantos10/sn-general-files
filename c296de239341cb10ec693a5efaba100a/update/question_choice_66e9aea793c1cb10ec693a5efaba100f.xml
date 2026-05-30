@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="What is the reason for your request?">5588262793c1cb10ec693a5efaba10d7</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-30 15:36:57</sys_created_on>
+        <sys_id>66e9aea793c1cb10ec693a5efaba100f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Which department and how many users will have access to this network?</sys_name>
+        <sys_package display_value="SN General Files" source="x_616044_sn_gene_0">c296de239341cb10ec693a5efaba100a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SN General Files">c296de239341cb10ec693a5efaba100a</sys_scope>
+        <sys_update_name>question_choice_66e9aea793c1cb10ec693a5efaba100f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-30 15:36:57</sys_updated_on>
+        <text>Which department and how many users will have access to this network?</text>
+        <value>u_which_department_and_how_many_users_will_have_access_to_this_network?</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=66e9aea793c1cb10ec693a5efaba100f"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>66e9aea793c1cb10ec693a5efaba100f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-30 15:36:57</sys_created_on>
+        <sys_id>6d1a222b93c1cb10ec693a5efaba1025</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-30 15:36:57</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>66e9aea793c1cb10ec693a5efaba100f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-30 15:36:57</sys_created_on>
+        <sys_id>251a222b93c1cb10ec693a5efaba1025</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-30 15:36:57</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
